@@ -29,7 +29,7 @@ Pour exécuter ce script utilisez le terminal,
 
 """
 import streamlit as st
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.metric_cards import style_metric_cards
 
 st.header("TdB de migration 2025")
 
@@ -87,5 +87,5 @@ def main():
 #"""
 if __name__ == "__main__":
 	col1, col2 = st.columns(2)
-	style_metric_cards()
+	#style_metric_cards()
 	main()
