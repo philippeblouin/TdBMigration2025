@@ -1,5 +1,7 @@
 import streamlit as st
 import json
+from src import *
+
 
 # Titre de l'application
 st.title("001 - Suivi de la migration des charges vers le Cloud")
