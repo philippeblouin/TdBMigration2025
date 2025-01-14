@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.metric_cards import style_metric_cards
 
 import json
 from src import *
