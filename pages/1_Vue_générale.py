@@ -39,7 +39,7 @@ def main():
 	col1.metric("Migration", "5", "+20%")
 	col2.metric("Incident", "9", "-12%")
 	#col3.metric("Retour arrière", "0%", "0%")
-	style_metric_cards()
+	#style_metric_cards()
 
 	st.write("""
 	#### Informations
