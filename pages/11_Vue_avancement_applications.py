@@ -27,8 +27,8 @@ Exécution :
 La page est prise en charge par la plateforme Streamlit et elle est interprétée lors du chargement par le fureteur web.
 """
 import streamlit as st
-import graphviz
-from streamlit_extras.dataframe_explorer import dataframe_explorer
+#import graphviz
+#from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 def example_one():
     dataframe = generate_fake_dataframe(
