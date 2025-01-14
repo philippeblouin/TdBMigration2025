@@ -29,7 +29,7 @@ La page est prise en charge par la plateforme Streamlit et elle est interprété
 import streamlit as st
 #import graphviz
 #import streamlit-extras
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.metric_cards import style_metric_cards
 import datetime
 
 def main():
@@ -42,7 +42,7 @@ def main():
 	col2.metric("Utilisation mémoire", "9%", "-12%")
 	col3.metric("Utilisation stockage (libre)", "19%", "2%")
 	col4.metric("Temps réponse","4 ms", "+2%")
-	style_metric_cards()
+	#style_metric_cards()
 
 
 	st.write("## Par application")
@@ -58,5 +58,5 @@ def main():
 	""")
 
 if __name__ == "__main__":
-	style_metric_cards()
+	#style_metric_cards()
 	main()
