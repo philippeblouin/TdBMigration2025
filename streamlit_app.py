@@ -21,10 +21,6 @@ utilisation_resources = {
     'Ressource': ['CPU', 'Mémoire', 'Stockage'],
     'Utilisation (%)': [65, 70, 85]
 }
-df_resources = pd.DataFrame(utilisation_resources)
-
-# Affichage de la carte des ressources
-st.bar_chart(df_resources.set_index('Ressource'))
 
 # Bouton pour simuler la mise à jour des données
 if st.button("Mettre à jour les données de migration"):
