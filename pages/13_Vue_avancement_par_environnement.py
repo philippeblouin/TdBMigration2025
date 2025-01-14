@@ -29,7 +29,7 @@ La page est prise en charge par la plateforme Streamlit et elle est interprété
 import streamlit as st
 import pandas as pd
 import numpy as np
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.metric_cards import style_metric_cards
 
 def main():
 	col1.write("#### Par environnement")
