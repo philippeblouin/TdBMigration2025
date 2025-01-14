@@ -29,7 +29,7 @@ La page est prise en charge par la plateforme Streamlit et elle est interprété
 import streamlit as st
 #import graphviz
 #import streamlit-extras
-from streamlit_extras.metric_cards import style_metric_cards
+#from streamlit_extras.metric_cards import style_metric_cards
 import datetime
 
 def main():
@@ -42,7 +42,7 @@ def main():
 	col1.metric("Migration", "5", "+20%")
 	col2.metric("Incident", "9", "-12%")
 	col3.metric("Retour arrière", "0%", "0%")
-	style_metric_cards()
+	#style_metric_cards()
 
 	st.write("""
 	#### Informations
@@ -54,5 +54,5 @@ def main():
 	""")
 
 if __name__ == "__main__":
-	style_metric_cards()
+	#style_metric_cards()
 	main()
