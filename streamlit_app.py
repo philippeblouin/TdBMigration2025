@@ -1,4 +1,5 @@
 import streamlit as st
+import json
 
 # Titre de l'application
 st.title("Suivi de la migration des charges vers le Cloud")
